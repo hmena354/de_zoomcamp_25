@@ -53,3 +53,4 @@ LEFT JOIN
 where pu."Zone" = 'East Harlem North' and 
 	EXTRACT(month from gtd."lpep_pickup_datetime") = 10
 order by 2 DESC
+
