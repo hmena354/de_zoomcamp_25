@@ -1,0 +1,10 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: eloquent-ratio-447722-t0
+      dataset: dbt_hmena
+      location: southamerica-west1
+      threads: 4
