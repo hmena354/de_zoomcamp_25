@@ -4,4 +4,4 @@ target/
 dbt_packages/
 logs/
 
-profiles.yml
+profile.yml
